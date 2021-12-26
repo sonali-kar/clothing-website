@@ -1,0 +1,36 @@
+/* Our Story Styles */
+.ourStory__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.ourStory__title,
+.ourGoals__title {
+	font-size: 50px;
+	font-weight: 600;
+	color: black;
+	margin-bottom: 1rem;
+}
+.ourStory__subtitle {
+	font-size: 2.5rem;
+	font-weight: 600;
+	color: black;
+	margin-bottom: 2rem;
+}
+.ourStory__text,
+.ourGoals__text {
+	font-size: 2rem;
+	line-height: 1.4em;
+	color: black;
+}
+.ourStory__img{
+    width:1000px;
+   
+}
+
+/* Our Goals Styles */
+
+.ourGoals__info {
+    text-align: left;
+	margin-bottom: 5rem;
+}
