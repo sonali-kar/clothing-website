@@ -1,0 +1,96 @@
+#page__title {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+.page__title__text {
+	font-size: 2.2rem;
+	color: black;
+}
+@media only screen and (min-width: 768px) {
+	#page__title {
+		padding-top: 5rem;
+		padding-bottom: 3rem;
+	}
+	.page__title__text {
+		font-size: 3.6rem;
+	}
+}
+/* Our Specials Menu Styles */
+#ourSpecials {
+	padding: 0;
+    
+
+}
+.ourSpecials__title {
+	font-size: 1.8rem;
+	color: black;
+	margin-bottom: 2rem;
+}
+.ourSpecials__wrapper {
+	display: flex;
+	gap: 1.5rem;
+	flex-direction: row-reverse;
+	max-width:fit-content;
+}
+.ourSpecials__item {
+	flex: 1;
+	display: flex;
+	gap: 2rem;
+	background-color: grey;
+	padding: 1.5rem;
+	border-radius: 12px;
+}
+.ourSpecials__item__img{
+    width:fit-content;
+    height: fit-content;
+    border-radius: 12px;
+}
+.ourSpecials__item__info {
+	width: 50%;
+    float: right;
+}
+
+.ourSpecials__item__img img {
+	object-fit: cover;
+}
+.ourSpecials__item__title {
+	font-size: 2.4rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+	color: black;
+	line-height: 1.2em;
+}
+.ourSpecials__item__price {
+	font-size: 1.8rem;
+	color: green;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+.products{
+    padding-left: 100px;
+    gap:2px;
+}
+.products_title{
+    font-size: 3rem;
+	margin-bottom: 1rem;
+    padding-left: 22px;
+	color: black;
+	font-weight: 600;
+    padding-top: 100px;
+}
+.product__text{
+    font-size: 2rem;
+	margin-bottom: 0.5rem;
+	color:black;
+	font-family: Raleway;
+	font-weight: 500;
+	line-height: 1.4em;
+}
+.women-sec{
+float:left;
+width:50%;
+}
+.men-sec{
+    float: right;
+    width: 50%;
+}

@@ -116,15 +116,21 @@
 }
 /* End EventsInfo Styles*/
 /* WhyUs Section */
+#whyUs{
+	padding-top: 200px;	
+}
+
 .whyUs__wrapper {
-display:flex;
-align-items: center;
-	justify-content: center;
-    flex-direction: column;
-	gap: 4rem;
+	display:inline-flex;
+	align-items:center;
+	justify-content:left;
+	flex-direction: row;
+	gap: 10rem;
 }
 .whyUs__left {
-	text-align: center;
+	text-align: justify;
+	float: right;
+	width: 50%;
 }
 .whyUs__title {
 	font-family: Poppins;
@@ -134,10 +140,11 @@ align-items: center;
 	margin-bottom: 1rem;
 }
 .whyUs__text {
-	font-size: 1.4rem;
+	font-size: 2rem;
 }
 .whyUs__right {
 	text-align: center;
+	width: 50;
 }
 .whyUs__items__wrapper {
 	display: grid;
