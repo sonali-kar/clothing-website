@@ -1,0 +1,60 @@
+/* Form Styles */
+#form {
+	padding: 5rem 0;
+    margin:0%;
+}
+.form__title {
+	font-size: 2.4rem;
+	color: black;
+	font-weight: 600;
+}
+.form__wrapper {
+	padding: 0;
+}
+.form__wrapper form {
+	display:grid;
+	grid-template-columns: 3fr;
+	gap : 1.5rem;
+}
+
+.form__group label,
+.form__group input,
+.form__group textarea,
+.form__group select {
+	width:30%;
+    display:grid;
+}
+
+.form__group label {
+	font-size: 1.6rem;
+	font-family: Poppins;
+	color: black;
+	font-weight: 500;
+    text-align: left;
+    clear: both;
+    float:left;
+}
+.form__group input,
+.form__group textarea,
+.form__group select {
+
+	border: none;
+	background-color: rgb(107, 112, 111);
+	font-size: 1.4rem;
+	font-family: Raleway;
+	font-weight: 600;
+	padding: 1rem;
+	border-radius: 8px;
+	margin-top: 0.5rem;
+	color: black;
+}
+.form__group textarea {
+	resize: vertical;
+}
+.form__wrapper button[type='submit'] {
+	width: max-content;
+	border: none;
+	padding: 1rem 4rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+}

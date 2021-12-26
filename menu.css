@@ -43,7 +43,6 @@
 .ourSpecials__item__img{
     width:fit-content;
     height: fit-content;
-    border-radius: 12px;
 }
 .ourSpecials__item__info {
 	width: 50%;
@@ -68,7 +67,9 @@
 }
 .products{
     padding-left: 100px;
-    gap:2px;
+    gap:25px;
+    display:flex;
+    flex-direction: row;
 }
 .products_title{
     font-size: 3rem;
@@ -84,13 +85,13 @@
 	color:black;
 	font-family: Raleway;
 	font-weight: 500;
-	line-height: 1.4em;
+	line-height: 1.6em;
 }
-.women-sec{
+/*.women-sec{
 float:left;
 width:50%;
 }
 .men-sec{
-    float: right;
+    float: 
     width: 50%;
 }
